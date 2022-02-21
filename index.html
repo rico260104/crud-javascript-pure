@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <table>
+    <tr>
+    <tr>
+      <td>
+        <form autocomplete="off" name="formulir" onsubmit="onFormSubmit()">
+          <div>
+            <label for="nama">Nama</label>
+            <input type="text" name="nama" id="nama" required>
+          </div>
+          <form>
+            <div>
+              <label for="nis">NIS</label>
+              <input type="number" name="nis" id="nis" required>
+            </div>
+            <form>
+              <div>
+                <label for="jurusan">Jurusan</label>
+                <input type="text" name="jurusan" id="jurusan" required>
+              </div>
+              <div class="form-action-button">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+              </div>
+            </form>
+      <td>
+        <table class="list" id="studylist">
+          <thead>
+            <tr>
+              <th>Nama</th>
+              <th>NIS</th>
+              <th>Jurusan</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </td>
+      </td>
+    </tr>
+    </tr>
+  </table>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
